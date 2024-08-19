@@ -283,6 +283,23 @@ console.log("Soma dos pares:", resultado.somaPares);
 console.log("Produto dos ímpares:", resultado.produtoImpares);
 ```
 
+24) Crie uma função, que dado um número de um a dez, a função gere a tabuada desse número.
+
+```js
+function tabuada() {
+    let numero = prompt('Informe um número de 1 a 10 para fazermos a tabuada.');
+
+    console.log(`Tabuada de ${numero}`);
+    let c = 1;
+    while (c <= 10) {
+        console.log(`${n} x ${c} = ${n * c}`;
+        c++;
+    }
+}
+
+tabuada();
+```
+
 _**Você pode encontrar no diretório [js-individual] todos os exercícios separadamente**_
 
 ### Cinco projetos
