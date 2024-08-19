@@ -1,6 +1,6 @@
 # _Exercícios em JavaScript_
 
-Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **24 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **quatro projetos** utilizando um interação com o usuário mais elaborada.
+Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **32 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **cinco projetos** utilizando um interação com o usuário mais elaborada.
 
 ### 24 exercícios básicos
 
@@ -300,10 +300,145 @@ function tabuada() {
 tabuada();
 ```
 
+25) Criar uma função para calcular a porcentagem de um número.
+
+```js
+function porcentagem(num, per) { 
+    return (num / 100) * per; 
+} 
+
+console.log(porcentagem(1000, 57.18)); 
+```
+
+26) Criar uma função que converta uma temperatura de Celsius para Fahrenheit.
+
+```js
+function celsiusParaFahrenheit(n) { 
+    return n * 1.8 + 32; 
+}
+
+let r = celsiusParaFahrenheit(20); 
+console.log(r);
+```
+
+27) Criar uma função que converta uma temperatura de Fahrenheit para Celsius.
+
+```js
+function fahrenheitParaCelsius(n) { 
+    return (n - 32) / 1.8; 
+} 
+
+let r = fahrenheitParaCelsius(68); 
+console.log(r);
+```
+
+28) Criar uma função que receba como parâmetro um array de números e retorne um array 
+contendo somente números positivos.
+
+```js
+function retornarPositivos(ar) { 
+    var ar2 = []; 
+    for (var i = 0; i < ar.length; i++) {
+        var el = ar[i];
+        if (el >= 0) {
+            ar2.push(el);
+        } 
+    }
+    
+    return ar2;
+}
+
+let ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1]; 
+let ar2 = retornarPositivos(ar);
+```
+
+29) Crie uma função que localize o maior valor dentro de um array de números.
+
+```js
+function LocalizarMaior(ar) {
+    let max = ar[0];
+    for (var i = 0; i < ar.length; i++) {
+        if (ar[i] > max) {
+            max = ar[i];
+        }
+    }
+
+    return max;
+}
+
+let ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+let max = LocalizarMaior(ar);
+console.log("Maior número: ", max);
+```
+
+30) Calcular a soma de todos os dígitos de um número inteiro positivo.
+
+```js
+function somarDigitos(n) {
+    let s = n.toString(); 
+    let soma = 0;
+    for (var char of s) {
+        let digito = parseInt(char);
+        soma += digito;
+    }
+    
+    return soma;
+}
+
+let resultado = somarDigitos(1235231);
+console.log("Soma de todos os dígitos: ", resultado);
+```
+
+31) Imprimir os 10 primeiros números da sequência de Fibonacci sem usar recursividade.
+
+```js
+let f0 = 0;
+console.log(f0);
+let f1 = 1;
+console.log(f1);
+
+for (var i = 2; i < 10; i++) {
+    let fi = f1 + f0;
+    console.log(fi);
+    f0 = f1;
+    f1 = fi;
+} 
+```
+
+32) Criar uma função que junte dois arrays e retorno o resultado como um novo array.
+
+```js
+function juntarArrays(ar1, ar2) {
+    let ar = [];
+    for (let el of ar1) {
+        ar.push(el);
+    }
+
+    for (let el of ar2) {
+        ar.push(el);
+    }
+
+    return ar;
+}
+
+let ar1 = [1, 2, 3];
+let ar2 = [4, 5, 6];
+let ar = juntarArrays(ar1, ar2);
+console.log(ar);
+```
+
 _**Você pode encontrar no diretório [js-individual] todos os exercícios separadamente**_
 
-### Quatro projetos
+### Cinco projetos
 
+--------------------------------------------------------------------------
+#### Alugames
+
+> Uma empresa de jogos precisa desenvolver uma inteligência para gerenciar os jogos. Os jogos pode estar alugados ou não. E no momento da devolução dos jogos, devemos confirmar se o usuário realmente está devolvendo o jogo.
+
+```sh
+Solução dentro do diretório [alugames]
+```
 --------------------------------------------------------------------------
 #### Amigo Secreto
 
