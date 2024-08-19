@@ -1,6 +1,6 @@
 # _Exercícios em JavaScript_
 
-Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **24 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **cinco projetos** utilizando um interação com o usuário mais elaborada.
+Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **24 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **quatro projetos** utilizando um interação com o usuário mais elaborada.
 
 ### 24 exercícios básicos
 
@@ -302,16 +302,8 @@ tabuada();
 
 _**Você pode encontrar no diretório [js-individual] todos os exercícios separadamente**_
 
-### Cinco projetos
+### Quatro projetos
 
---------------------------------------------------------------------------
-#### Alugames
-
-> Uma empresa de jogos precisa desenvolver uma inteligência para gerenciar os jogos. Os jogos pode estar alugados ou não. E no momento da devolução dos jogos, devemos confirmar se o usuário realmente está devolvendo o jogo.
-
-```sh
-Solução dentro do diretório [alugames]
-```
 --------------------------------------------------------------------------
 #### Amigo Secreto
 
