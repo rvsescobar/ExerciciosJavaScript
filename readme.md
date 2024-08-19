@@ -1,8 +1,8 @@
 # _Exercícios em JavaScript_
 
-Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **23 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **cinco projetos** utilizando um interação com o usuário mais elaborada.
+Este repositório consiste em alguns exercícios básicos de lógica, utilizando a linguagem JavaScript. Praticamos aqui a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt). Aqui encontrará **24 exercícios** simples, que possuem o intuito de exercita a lógica e fundamentos de programação, além de **cinco projetos** utilizando um interação com o usuário mais elaborada.
 
-### 23 exercícios básicos
+### 24 exercícios básicos
 
 1) Crie um programa que utilize o `console.log` para exibir uma mensagem de boas-vindas.
 
